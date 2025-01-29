@@ -1,0 +1,87 @@
+.section-headstream{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+
+}
+
+.section-headstream h1{
+    font-size: 3rem;
+}
+
+.section-headstream p {
+    font-size: 1rem;
+    color: #505050;
+    margin: 30px 30px 30px 0;
+}
+
+.section-headstream > div:last-child{
+    display: grid;
+    grid-template-columns: repeat(5, 100px);
+    place-items: center;
+    gap: 20px;
+}
+
+.section-headstream .stream-container div.cylinder{
+    width: 100px;
+    height: 200px;
+    border-radius: 50px;
+    margin-bottom: 10px;
+}
+.section-headstream .stream-container div.circle{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.stream-container img{
+    width: 100px;
+    height: 200px;
+    cursor: pointer;
+    border-radius: 50px;
+    margin-bottom: 10px;
+    object-fit: cover;
+    filter: brightness(50%);
+    transition: 0.5s all;
+}
+
+.stream-container img:hover{
+    filter: brightness(100%);
+}
+
+.section-headstream button {
+    background: linear-gradient(to right, #748bde 0%, #fceeb5 50%, #ee786e 100%);
+    background-size: 500%;
+    border: none;
+    border-radius: 5rem;
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.15);
+    color: #fff;
+    cursor: pointer;
+    height: 3rem;
+    font-size: 1rem;
+    font-weight: bold;
+    letter-spacing: 0.05rem;
+    width: 10rem;
+}
+
+.section-headstream button:hover{
+    animation-name: gradient;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    100%{
+        background-position: 100%;
+    }
+
+}
