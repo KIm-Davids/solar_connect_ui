@@ -6,14 +6,16 @@ import Subscribe from "./Pages/Subscribe"
 import TechnicianOnBoarding from "./Components/SignUpAndLoginPage/Technician/TechnicianOnBoarding";
 import NavBar from "./Components/NavBar/NavBar";
 import HeroSection from "./Components/HeroSection/HeroSection"
-import TechnicianCards from "./Components/Body/TechnicianCards"
+import Feed from "./Components/Feed/Feed"
+import VideoHeader from "./Components/Feed/VideoHeader";
 
 function App() {
   return (
     <div>
         <NavBar/>
         <HeroSection/>
-        <TechnicianCards/>
+        <VideoHeader/>
+        <Feed/>
         <Router>
             <Routes>
                  {/*Add other routes here*/}

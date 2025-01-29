@@ -3,11 +3,11 @@ import './HeroSection.css'
 const HeroSection = () => (
         <section className="section-headstream">
         <div>
-            <h1>Dedicated Technicians Always Available</h1>
+            <h1>Unlock Exclusive Benefits with Our Subscription Plan</h1>
             <p>
                 Join our platform, and you’ll score the freedom to work on your terms, <br/>
                 with a steady flow of jobs that let you earn what you’re worth. <br/>
-                Plus, you’ll get top-notch training, a killer support crew,<br/>
+                Plus, you’ll get top-notch training, a very supportive crew,<br/>
                 and pay that actually reflects your hustle—what’s not to love?
             </p>
             <button>Subscribe</button>

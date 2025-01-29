@@ -1,0 +1,8 @@
+.feed-header {
+    text-align: center;
+    font-size: 2rem; /* Adjust size as needed */
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #333;
+    text-transform: uppercase; /* Optional: to make the header all caps */
+}
