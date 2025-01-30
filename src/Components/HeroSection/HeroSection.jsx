@@ -10,7 +10,7 @@ const HeroSection = () => (
                 Plus, you’ll get top-notch training, a very supportive crew,<br/>
                 and pay that actually reflects your hustle—what’s not to love?
             </p>
-            <button>Subscribe</button>
+            <button><a href="/subscribe">Subscribe</a></button>
         </div>
         <div>
             <div className="stream-container">

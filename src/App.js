@@ -2,26 +2,21 @@ import './App.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Earnings from "./Pages/Earnings";
 import ContactUs from "./Pages/ContactUs";
-import Subscribe from "./Pages/Subscribe"
 import TechnicianOnBoarding from "./Components/SignUpAndLoginPage/Technician/TechnicianOnBoarding";
-import NavBar from "./Components/NavBar/NavBar";
-import HeroSection from "./Components/HeroSection/HeroSection"
-import Feed from "./Components/Feed/Feed"
-import VideoHeader from "./Components/Feed/VideoHeader";
+import Home from './Components/HomePage/Home'
+import PricingApp from "./Components/Subscribe/SubscriptionBody/body"
+
 
 function App() {
   return (
     <div>
-        <NavBar/>
-        <HeroSection/>
-        <VideoHeader/>
-        <Feed/>
         <Router>
             <Routes>
                  {/*Add other routes here*/}
+                <Route path="/home" element={<Home/>} />
                 <Route path="/technician-earnings" element={<Earnings/>} />
-                <Route path="/contact-us" element={<ContactUs/>} />
-                <Route path="/subscribe" element={<Subscribe/>} />
+                <Route path="/find-job" element={<ContactUs/>} />
+                <Route path="/subscribe" element={<PricingApp/>} />
                 <Route pathe="/profile" element={<TechnicianOnBoarding/>} />
             </Routes>
         </Router>

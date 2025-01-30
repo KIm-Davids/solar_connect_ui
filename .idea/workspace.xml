@@ -44,17 +44,18 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\WebStorm 2024.1.2\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\User\WebstormProjects\solar_connect_ui\src\Components\HomePage" />
+      <recent name="C:\Users\User\WebstormProjects\solar_connect_ui\src\Components\Feed" />
       <recent name="C:\Users\User\WebstormProjects\solar_connect_ui\src" />
       <recent name="C:\Users\User\WebstormProjects\solar_connect_ui\src\Components\SignUpAndLoginPage\Technician" />
       <recent name="C:\Users\User\WebstormProjects\solar_connect_ui\src\Components" />
-      <recent name="C:\Users\User\WebstormProjects\solar_connectUI\components" />
-      <recent name="C:\Users\User\WebstormProjects\solar_connectUI" />
     </key>
   </component>
   <component name="RunManager">
@@ -96,7 +97,7 @@
       <workItem from="1738007189778" duration="3644000" />
       <workItem from="1738079037382" duration="6778000" />
       <workItem from="1738104556033" duration="23578000" />
-      <workItem from="1738157417531" duration="12852000" />
+      <workItem from="1738157417531" duration="28616000" />
     </task>
     <servers />
   </component>
